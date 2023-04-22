@@ -516,15 +516,128 @@ video {
   --tw-backdrop-sepia:  ;
 }
 
-.text-3xl {
-  font-size: 1.875rem;
-  line-height: 2.25rem;
+p {
+  font-size: 15px;
+}
+
+.btn {
+  margin-top: 6rem;
+  display: flex;
+  width: 10rem;
+  align-items: center;
+  justify-content: center;
+  border-radius: 9999px;
+  border-width: 2px;
+  border-color: hsla(0, 0%, 100%, 0.75);
+  --tw-bg-opacity: 1;
+  background-color: hsl(0 0% 95% / var(--tw-bg-opacity));
+  padding: 0.75rem;
+  font-weight: 700;
+}
+
+.btn:hover {
+  background-color: transparent;
+  color: hsla(0, 0%, 100%, 0.75);
+}
+
+.my-auto {
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+.mt-7 {
+  margin-top: 1.75rem;
+}
+
+.grid {
+  display: grid;
+}
+
+.h-\[30rem\] {
+  height: 30rem;
+}
+
+.h-screen {
+  height: 100vh;
+}
+
+.w-\[56rem\] {
+  width: 56rem;
+}
+
+.grid-cols-3 {
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+}
+
+.place-items-center {
+  place-items: center;
+}
+
+.bg-c-dark-green {
+  --tw-bg-opacity: 1;
+  background-color: hsl(179 100% 13% / var(--tw-bg-opacity));
+}
+
+.bg-c-gray {
+  --tw-bg-opacity: 1;
+  background-color: hsl(0 0% 95% / var(--tw-bg-opacity));
+}
+
+.bg-c-green {
+  --tw-bg-opacity: 1;
+  background-color: hsl(184 100% 22% / var(--tw-bg-opacity));
+}
+
+.bg-c-orange {
+  --tw-bg-opacity: 1;
+  background-color: hsl(31 77% 52% / var(--tw-bg-opacity));
+}
+
+.p-10 {
+  padding: 2.5rem;
+}
+
+.pr-2 {
+  padding-right: 0.5rem;
+}
+
+.font-big {
+  font-family: Big Shoulders Display, cursive;
+}
+
+.font-lexend {
+  font-family: Lexend Deca, sans-serif;
+}
+
+.text-4xl {
+  font-size: 2.25rem;
+  line-height: 2.5rem;
 }
 
 .font-bold {
   font-weight: 700;
 }
 
-.underline {
-  text-decoration-line: underline;
+.text-c-dark-green {
+  --tw-text-opacity: 1;
+  color: hsl(179 100% 13% / var(--tw-text-opacity));
+}
+
+.text-c-gray {
+  --tw-text-opacity: 1;
+  color: hsl(0 0% 95% / var(--tw-text-opacity));
+}
+
+.text-c-green {
+  --tw-text-opacity: 1;
+  color: hsl(184 100% 22% / var(--tw-text-opacity));
+}
+
+.text-c-light-gray {
+  color: hsla(0, 0%, 100%, 0.75);
+}
+
+.text-c-orange {
+  --tw-text-opacity: 1;
+  color: hsl(31 77% 52% / var(--tw-text-opacity));
 }

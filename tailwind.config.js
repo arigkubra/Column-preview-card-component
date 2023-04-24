@@ -2,6 +2,11 @@
 module.exports = {
   content: ["./src/**/*.{html,js}"],
   theme: {
+    screens: {
+      
+      'laptop': '1024px',
+      
+    },
     fontFamily: {
       'big': ['Big Shoulders Display', 'cursive'],
       'lexend': ['Lexend Deca', 'sans-serif'],

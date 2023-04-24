@@ -5,6 +5,9 @@
     p{
         @apply text-[15px]
     }
+    h3{
+       @apply mt-7 font-big font-bold text-4xl text-c-gray
+    }
     .btn{
         @apply  flex justify-center items-center mt-24 font-bold p-3 w-40 border-2 border-c-light-gray bg-c-gray hover:bg-transparent rounded-full hover:text-c-light-gray
     }

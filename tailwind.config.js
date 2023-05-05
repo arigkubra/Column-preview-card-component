@@ -1,11 +1,9 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-  content: ["./src/**/*.{html,js}"],
+  content: ["./index.html","./src/**/*.{html,js}"],
   theme: {
     screens: {
-      
-      'laptop': '1024px',
-      
+      'laptop': '1024px',     
     },
     fontFamily: {
       'big': ['Big Shoulders Display', 'cursive'],
